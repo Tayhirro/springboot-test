@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "Pricing",
+    "description": "Choose a plan and start now"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "PPP Calculator Pricing",
+    "title": "Pricing",
+    "description": "Get all features of PPP Calculator.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "Pay as you go"
+      }
+    ],
+    "items": [
+      {
+        "title": "Standard",
+        "description": "Get started quickly with PPP lookups.",
+        "label": "Popular",
+        "features_title": "Includes Starter, plus",
+        "features": [
+          "200 credits, valid for 3 months"
+        ],
+        "interval": "one-time",
+        "amount": 500,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "$8",
+        "currencies": [
+          {
+            "currency": "CNY",
+            "amount": 3500,
+            "price": "¥35",
+            "original_price": "¥56",
+            "payment_providers": [
+              "creem"
+            ]
+          }
+        ],
+        "unit": "",
+        "is_featured": true,
+        "tip": "Pay once, enjoy lookups!",
+        "button": {
+          "title": "Get PPP Calculator",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "prod_54SMjNjUwM3zmES1Ev4WHk",
+        "payment_product_id": "prod_54SMjNjUwM3zmES1Ev4WHk",
+        "product_name": "DigitalGift",
+        "credits": 200,
+        "valid_days": 90,
+        "group": "one-time"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "Current Plan",
+    "processing": "Processing"
+  }
+}

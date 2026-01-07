@@ -1,0 +1,5 @@
+# pnpm 缓存
+.pnpm/
+
+# Node 依赖目录
+node_modules/

@@ -1,0 +1,70 @@
+{
+  "title": "Rich Editor",
+  "subtitle": "Create, edit, and ship content with clarity.",
+  "doc_list": {
+    "title": "Documents",
+    "search": "Search documents",
+    "empty": "No documents found"
+  },
+  "actions": {
+    "new": "New Doc",
+    "save": "Save Version",
+    "export": "Export",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "editor": {
+    "title_placeholder": "Document title",
+    "placeholder": "Start writing here..."
+  },
+  "panels": {
+    "templates": "Templates",
+    "versions": "Versions",
+    "assistant": "AI Assist (demo)"
+  },
+  "versions": {
+    "empty": "No versions yet",
+    "restore": "Restore"
+  },
+  "templates": {
+    "apply": "Apply",
+    "empty": "No templates"
+  },
+  "assistant": {
+    "title": "Quick prompts",
+    "hint": "Demo suggestions only",
+    "insert": "Insert"
+  },
+  "dialogs": {
+    "delete_title": "Delete this document?",
+    "delete_description": "This action cannot be undone.",
+    "link_hint": "Paste a full URL to turn it into a clickable link.",
+    "image_hint": "Paste an image URL to insert it into the editor."
+  },
+  "status": {
+    "autosave": "Autosave: local",
+    "updated": "Updated {time}",
+    "active": "Active"
+  },
+  "export": {
+    "html": "Copy HTML",
+    "markdown": "Copy Markdown",
+    "clipboard_unavailable": "Clipboard not available"
+  },
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "strike": "Strikethrough",
+    "heading": "Heading",
+    "bullet": "Bullet list",
+    "ordered": "Numbered list",
+    "quote": "Blockquote",
+    "code": "Code block",
+    "link": "Insert link",
+    "image": "Insert image",
+    "table": "Insert table",
+    "undo": "Undo",
+    "redo": "Redo"
+  }
+}

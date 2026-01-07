@@ -1,0 +1,266 @@
+@import 'tailwindcss';
+@import './theme.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@plugin 'tailwindcss-animate';
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 md:px-8;
+}
+
+input,
+select,
+textarea {
+  @apply border-border outline-ring/50 bg-background;
+}
+
+button {
+  @apply border-border outline-ring/50 cursor-pointer;
+}
+
+pre {
+  @apply px-4;
+}
+
+.docs th,
+.docs td {
+  @apply border-border border p-3;
+}
+
+@theme inline {
+  --animate-grid: grid 15s linear infinite;
+  @keyframes grid {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  --animate-ripple: ripple var(--duration, 2s) ease calc(var(--i, 0) * 0.2s)
+    infinite;
+  @keyframes ripple {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+  }
+  --animate-meteor: meteor 5s linear infinite;
+  @keyframes meteor {
+    0% {
+      transform: rotate(var(--angle)) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(var(--angle)) translateX(-500px);
+      opacity: 0;
+    }
+  }
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom animations for Rich Editor */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.8s ease-out;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s ease-out;
+}
+
+/* Rich editor content styles */
+.rich-editor-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      1200px circle at 12% 12%,
+      color-mix(in oklch, var(--color-primary) 12%, transparent),
+      transparent 55%
+    ),
+    radial-gradient(
+      900px circle at 88% 8%,
+      color-mix(in oklch, var(--color-accent) 18%, transparent),
+      transparent 60%
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-background) 0%,
+      color-mix(in oklch, var(--color-muted) 65%, var(--color-background)) 100%
+    );
+}
+
+.rich-editor-panel {
+  background: color-mix(in oklch, var(--color-card) 85%, transparent);
+  backdrop-filter: blur(16px);
+}
+
+.rich-editor-shell .tiptap {
+  min-height: 520px;
+  outline: none;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.rich-editor-shell .tiptap h1,
+.rich-editor-shell .tiptap h2,
+.rich-editor-shell .tiptap h3 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.rich-editor-shell .tiptap h1 {
+  font-size: 2rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.rich-editor-shell .tiptap h2 {
+  font-size: 1.5rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.rich-editor-shell .tiptap h3 {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.rich-editor-shell .tiptap p {
+  margin: 0.75rem 0;
+}
+
+.rich-editor-shell .tiptap ul,
+.rich-editor-shell .tiptap ol {
+  padding-left: 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.rich-editor-shell .tiptap blockquote {
+  border-left: 3px solid color-mix(in oklch, var(--color-primary) 60%, white);
+  padding-left: 1rem;
+  color: var(--color-muted-foreground);
+}
+
+.rich-editor-shell .tiptap code {
+  background: color-mix(in oklch, var(--color-primary) 8%, white);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+  font-family: var(--font-mono);
+}
+
+.rich-editor-shell .tiptap pre {
+  background: color-mix(in oklch, var(--color-foreground) 10%, white);
+  border-radius: 12px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.rich-editor-shell .tiptap img {
+  max-width: 100%;
+  border-radius: 14px;
+}
+
+.rich-editor-shell .tiptap table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.rich-editor-shell .tiptap th,
+.rich-editor-shell .tiptap td {
+  border: 1px solid color-mix(in oklch, var(--color-foreground) 10%, white);
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.rich-editor-shell .tiptap p.is-editor-empty::before {
+  content: attr(data-placeholder);
+  color: var(--color-muted-foreground);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}

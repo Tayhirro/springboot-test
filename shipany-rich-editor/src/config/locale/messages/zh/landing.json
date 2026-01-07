@@ -1,0 +1,518 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Rich Editor",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Rich Editor"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "编辑器",
+          "url": "/editor",
+          "icon": "PenLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "开始创作",
+        "icon": "PenLine",
+        "url": "/editor",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "查看文档",
+        "icon": "BookOpenText",
+        "url": "https://docs.shipany.com/editor",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ],
+    "user_nav": {
+      "show_name": false,
+      "show_credits": false,
+      "show_sign_out": false,
+      "items": []
+    },
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Create, Edit, Share — Beyond Simple Text",
+    "highlight_text": "Beyond Simple Text",
+    "description": "Rich Editor 是一款现代化富文本编辑器，支持所见即所得写作、版本管理与内容分享。",
+    "announcement": {
+      "badge": "Beta",
+      "title": "Rich Editor 1.0 现已开放体验",
+      "url": "/editor"
+    },
+    "tip": "本地自动保存，随时导出为 HTML 或 Markdown。",
+    "buttons": [
+      {
+        "title": "打开编辑器",
+        "icon": "PenLine",
+        "url": "/editor",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "了解功能",
+        "icon": "Sparkles",
+        "url": "/#features",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_avatars": false,
+    "show_award": false,
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-zh-hero/1200/800.webp",
+      "alt": "Rich Editor 界面预览"
+    },
+    "image_invert": {
+      "src": "https://picsum.photos/seed/rich-editor-zh-hero-dark/1200/800.webp",
+      "alt": "Rich Editor 深色界面"
+    }
+  },
+  "logos": {
+    "id": "logos",
+    "title": "基于稳定可靠的现代前端技术栈",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "什么是 Rich Editor",
+    "label": "Introduce",
+    "description": "一个为内容创作者与团队协作打造的写作工作台。",
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-zh-introduce/960/640.webp",
+      "alt": "编辑器预览"
+    },
+    "items": [
+      {
+        "title": "所见即所得写作",
+        "description": "流畅的排版体验，支持标题、列表、代码、引用等结构化内容。",
+        "icon": "FilePenLine",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-introduce-1/640/480.webp",
+          "alt": "写作体验"
+        }
+      },
+      {
+        "title": "协作能力（规划中）",
+        "description": "为多人实时编辑与批注流程预留架构，逐步开放协作能力。",
+        "icon": "Users",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-introduce-2/640/480.webp",
+          "alt": "协作"
+        }
+      },
+      {
+        "title": "AI 辅助（演示）",
+        "description": "内置写作提示与段落润色建议，后续可接入真实 AI 服务。",
+        "icon": "WandSparkles",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-introduce-3/640/480.webp",
+          "alt": "AI 写作"
+        }
+      },
+      {
+        "title": "版本与同步",
+        "description": "本地自动保存与版本记录，确保内容随时可回滚。",
+        "icon": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-introduce-4/640/480.webp",
+          "alt": "版本管理"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "为什么选择 Rich Editor",
+    "label": "Benefits",
+    "description": "专注写作体验，同时兼顾团队协作与发布需求。",
+    "items": [
+      {
+        "title": "进入写作心流",
+        "description": "干净的界面与快捷格式操作，让内容创作更高效。",
+        "icon": "Sparkles",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-benefits-1/640/480.webp",
+          "alt": "心流"
+        }
+      },
+      {
+        "title": "版本可追溯",
+        "description": "自动保存与版本快照，关键修改一键恢复。",
+        "icon": "History",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-benefits-2/640/480.webp",
+          "alt": "版本"
+        }
+      },
+      {
+        "title": "分享更轻松",
+        "description": "支持导出 HTML 与 Markdown，轻松投放到任意平台。",
+        "icon": "Share2",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-benefits-3/640/480.webp",
+          "alt": "分享"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "如何开始",
+    "description": "从新建文档到分享发布，只需几步。",
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-zh-usage/960/640.webp",
+      "alt": "使用流程"
+    },
+    "image_position": "right",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "创建文档",
+        "description": "从模板或空白开始，快速建立结构。",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-usage-1/640/480.webp",
+          "alt": "创建"
+        }
+      },
+      {
+        "title": "开始写作",
+        "description": "使用丰富格式与快捷键，保持写作节奏。",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-usage-2/640/480.webp",
+          "alt": "写作"
+        }
+      },
+      {
+        "title": "审阅与迭代",
+        "description": "借助版本记录管理重要修改节点。",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-usage-3/640/480.webp",
+          "alt": "审阅"
+        }
+      },
+      {
+        "title": "导出分享",
+        "description": "一键导出 HTML/Markdown，快速发布。",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-zh-usage-4/640/480.webp",
+          "alt": "导出"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "核心能力",
+    "description": "覆盖内容创作全流程的关键功能。",
+    "items": [
+      {
+        "title": "格式化工具栏",
+        "description": "标题、列表、引用、代码块等常用排版一应俱全。",
+        "icon": "PenLine"
+      },
+      {
+        "title": "Markdown 导出",
+        "description": "随时导出 Markdown 或 HTML，适配多种发布渠道。",
+        "icon": "FileCode2"
+      },
+      {
+        "title": "图片与表格",
+        "description": "支持插入图片、表格等富媒体内容。",
+        "icon": "Table"
+      },
+      {
+        "title": "版本历史",
+        "description": "自动生成版本快照，关键节点可回溯。",
+        "icon": "History"
+      },
+      {
+        "title": "AI 写作建议（演示）",
+        "description": "内置写作提示与段落润色示例，AI 接入可扩展。",
+        "icon": "WandSparkles"
+      },
+      {
+        "title": "协作能力（规划中）",
+        "description": "预留协作与权限管理接口，便于扩展多人协作。",
+        "icon": "Users"
+      }
+    ]
+  },
+  "stats": {
+    "id": "stats",
+    "title": "专注高效写作",
+    "description": "以可靠的本地保存与版本管理为核心体验。",
+    "items": [
+      {
+        "title": "本地优先",
+        "description": "浏览器自动保存"
+      },
+      {
+        "title": "版本可控",
+        "description": "随时回滚"
+      },
+      {
+        "title": "轻松分享",
+        "description": "HTML / Markdown"
+      }
+    ]
+  },
+  "cta": {
+    "id": "cta",
+    "title": "开始你的下一篇内容创作",
+    "description": "无需注册即可体验 Rich Editor 的写作流程。",
+    "buttons": [
+      {
+        "title": "立即体验",
+        "url": "/editor",
+        "target": "_self",
+        "icon": "PenLine"
+      },
+      {
+        "title": "查看文档",
+        "url": "https://docs.shipany.com/editor",
+        "target": "_blank",
+        "variant": "outline",
+        "icon": "BookOpenText"
+      }
+    ]
+  },
+  "subscribe": {
+    "id": "subscribe",
+    "title": "订阅产品更新",
+    "description": "获取 Rich Editor 最新版本与功能更新。",
+    "submit": {
+      "input": {
+        "placeholder": "输入邮箱"
+      },
+      "button": {
+        "title": "订阅"
+      },
+      "action": "/api/subscribe"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Rich Editor",
+      "description": "Rich Editor 是一款面向内容创作者与团队协作的现代化富文本编辑器。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Rich Editor"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "编辑器",
+              "url": "/editor",
+              "target": "_self"
+            },
+            {
+              "title": "常见问题",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "官网",
+              "url": "https://shipany.com",
+              "target": "_blank"
+            },
+            {
+              "title": "文档",
+              "url": "https://docs.shipany.com/editor",
+              "target": "_blank"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/shipany/rich-editor",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Website",
+          "icon": "Globe",
+          "url": "https://shipany.com",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "icon": "Github",
+          "url": "https://github.com/shipany/rich-editor",
+          "target": "_blank"
+        },
+        {
+          "title": "Docs",
+          "icon": "BookOpenText",
+          "url": "https://docs.shipany.com/editor",
+          "target": "_blank"
+        },
+        {
+          "title": "Support",
+          "icon": "Mail",
+          "url": "mailto:support@shipany.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  },
+  "converter": {
+    "title": "购买力平价换算器",
+    "description": "了解你的美元在不同国家的真实购买力",
+    "footer_tip": "数据由 AI 智能分析提供，仅供参考",
+    "amount_label": "美元金额 (USD)",
+    "amount_placeholder": "100",
+    "country_label": "目标国家",
+    "country_placeholder": "选择国家",
+    "button_convert": "开始换算（每次换算，扣除10积分）",
+    "button_loading": "计算中...",
+    "loading_text": "AI 正在分析购买力...",
+    "empty_text": "输入金额并选择国家开始换算",
+    "result_title": "换算结果",
+    "result_prefix": "在 {country} 的购买力相当于",
+    "comparison_title": "购买力对比示例",
+    "countries": {
+      "china": "中国 (CNY)",
+      "japan": "日本 (JPY)",
+      "uk": "英国 (GBP)",
+      "australia": "澳大利亚 (AUD)",
+      "canada": "加拿大 (CAD)",
+      "singapore": "新加坡 (SGD)",
+      "korea": "韩国 (KRW)",
+      "india": "印度 (INR)",
+      "thailand": "泰国 (THB)",
+      "vietnam": "越南 (VND)"
+    },
+    "country_names": {
+      "china": "中国",
+      "japan": "日本",
+      "uk": "英国",
+      "australia": "澳大利亚",
+      "canada": "加拿大",
+      "singapore": "新加坡",
+      "korea": "韩国",
+      "india": "印度",
+      "thailand": "泰国",
+      "vietnam": "越南"
+    },
+    "prompt": "作为一个购买力平价(PPP)专家，请将{amount}美元换算成{country}的本地货币。\n\n重要：这是购买力平价换算，不是汇率换算。请基于真实的物价水平和生活成本来计算等价购买力。\n\n例如：100美元在美国的购买力，可能相当于在中国300元人民币的购买力（而不是按汇率720元）。\n\n请提供：\n1. 基于购买力平价的等价金额（不是汇率换算）\n2. 货币代码（例如：CNY, JPY等）\n3. 5个具体的购买力对比示例，展示相同商品在两国的实际价格对比\n\n请以JSON格式返回：\n{\n  \"amount\": \"换算后的金额（纯数字）\",\n  \"currency\": \"货币代码\",\n  \"comparisons\": [\"示例1\", \"示例2\", \"示例3\", \"示例4\", \"示例5\"]\n}\n\n注意：只返回JSON，不要任何其他文字"
+  },
+  "testimonials": {
+    "id": "testimonials",
+    "title": "团队反馈（即将上线）",
+    "description": "功能完善后将展示真实用户案例。",
+    "items": []
+  },
+  "faq": {
+    "id": "faq",
+    "title": "常见问题",
+    "description": "关于 Rich Editor 的常见疑问解答。",
+    "items": [
+      {
+        "question": "支持 Markdown 吗？",
+        "answer": "当前支持 Markdown 与 HTML 导出，正在规划双栏 Markdown 编辑模式。"
+      },
+      {
+        "question": "是否可以多人协作？",
+        "answer": "协作功能已进入规划阶段，当前版本侧重单人创作与版本管理。"
+      },
+      {
+        "question": "AI 写作助手如何使用？",
+        "answer": "当前提供演示级写作提示，后续可接入真实 AI 服务。"
+      },
+      {
+        "question": "数据会存在哪里？",
+        "answer": "现阶段默认本地保存，云端同步能力将在后续版本逐步开放。"
+      }
+    ],
+    "tip": "需要更多帮助？请联系 <a href=\"mailto:support@shipany.com\">support@shipany.com</a>"
+  }
+}

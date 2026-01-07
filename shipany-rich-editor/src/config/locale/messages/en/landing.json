@@ -1,0 +1,518 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Rich Editor",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Rich Editor"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "Editor",
+          "url": "/editor",
+          "icon": "PenLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Start Editing",
+        "icon": "PenLine",
+        "url": "/editor",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View Docs",
+        "icon": "BookOpenText",
+        "url": "https://docs.shipany.com/editor",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ],
+    "user_nav": {
+      "show_name": false,
+      "show_credits": false,
+      "show_sign_out": false,
+      "items": []
+    },
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Create, Edit, Share - Beyond Simple Text",
+    "highlight_text": "Beyond Simple Text",
+    "description": "Rich Editor is a modern writing studio with polished formatting, version control, and effortless sharing.",
+    "announcement": {
+      "badge": "Beta",
+      "title": "Rich Editor 1.0 is ready to explore",
+      "url": "/editor"
+    },
+    "tip": "Autosaves locally and exports to HTML or Markdown anytime.",
+    "buttons": [
+      {
+        "title": "Open Editor",
+        "icon": "PenLine",
+        "url": "/editor",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "Explore Features",
+        "icon": "Sparkles",
+        "url": "/#features",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_avatars": false,
+    "show_award": false,
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-en-hero/1200/800.webp",
+      "alt": "Rich Editor interface preview"
+    },
+    "image_invert": {
+      "src": "https://picsum.photos/seed/rich-editor-en-hero-dark/1200/800.webp",
+      "alt": "Rich Editor dark interface"
+    }
+  },
+  "logos": {
+    "id": "logos",
+    "title": "Built with modern tools creators trust",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "id": "introduce",
+    "title": "What is Rich Editor",
+    "label": "Introduce",
+    "description": "A focused workspace for creators and teams to craft, refine, and publish content.",
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-en-introduce/960/640.webp",
+      "alt": "Editor workspace"
+    },
+    "items": [
+      {
+        "title": "WYSIWYG writing",
+        "description": "Clean formatting tools for headings, lists, quotes, code, and structured content.",
+        "icon": "FilePenLine",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-introduce-1/640/480.webp",
+          "alt": "Writing"
+        }
+      },
+      {
+        "title": "Collaboration-ready",
+        "description": "Infrastructure prepared for real-time collaboration and review workflows.",
+        "icon": "Users",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-introduce-2/640/480.webp",
+          "alt": "Collaboration"
+        }
+      },
+      {
+        "title": "AI assist (demo)",
+        "description": "Built-in prompt suggestions today, with a clear path to real AI integrations.",
+        "icon": "WandSparkles",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-introduce-3/640/480.webp",
+          "alt": "AI assistance"
+        }
+      },
+      {
+        "title": "Autosave + history",
+        "description": "Local autosave and version snapshots keep every draft within reach.",
+        "icon": "Cloud",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-introduce-4/640/480.webp",
+          "alt": "Version control"
+        }
+      }
+    ]
+  },
+  "benefits": {
+    "id": "benefits",
+    "title": "Why teams choose Rich Editor",
+    "label": "Benefits",
+    "description": "Designed to keep writers in flow while giving teams control.",
+    "items": [
+      {
+        "title": "Stay in flow",
+        "description": "Fast formatting and a focused interface keep ideas moving.",
+        "icon": "Sparkles",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-benefits-1/640/480.webp",
+          "alt": "Focus"
+        }
+      },
+      {
+        "title": "Version confidence",
+        "description": "Snapshot important changes and restore instantly.",
+        "icon": "History",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-benefits-2/640/480.webp",
+          "alt": "Version history"
+        }
+      },
+      {
+        "title": "Publish anywhere",
+        "description": "Export to HTML or Markdown for blogs, docs, or newsletters.",
+        "icon": "Share2",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-benefits-3/640/480.webp",
+          "alt": "Sharing"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "id": "usage",
+    "title": "How it works",
+    "description": "From blank page to polished publish in minutes.",
+    "image": {
+      "src": "https://picsum.photos/seed/rich-editor-en-usage/960/640.webp",
+      "alt": "Workflow"
+    },
+    "image_position": "right",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Create a document",
+        "description": "Start from a template or a clean canvas.",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-usage-1/640/480.webp",
+          "alt": "Create"
+        }
+      },
+      {
+        "title": "Write with smart tools",
+        "description": "Use formatting shortcuts to keep momentum.",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-usage-2/640/480.webp",
+          "alt": "Write"
+        }
+      },
+      {
+        "title": "Review and refine",
+        "description": "Track versions and roll back anytime.",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-usage-3/640/480.webp",
+          "alt": "Review"
+        }
+      },
+      {
+        "title": "Export and share",
+        "description": "Send your content to any destination.",
+        "image": {
+          "src": "https://picsum.photos/seed/rich-editor-en-usage-4/640/480.webp",
+          "alt": "Export"
+        }
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "Core features",
+    "description": "The essentials for modern content production.",
+    "items": [
+      {
+        "title": "Formatting toolbar",
+        "description": "Headings, lists, quotes, code blocks, and more.",
+        "icon": "PenLine"
+      },
+      {
+        "title": "Markdown export",
+        "description": "Export Markdown or HTML whenever you need it.",
+        "icon": "FileCode2"
+      },
+      {
+        "title": "Images and tables",
+        "description": "Insert rich blocks, images, and structured tables.",
+        "icon": "Table"
+      },
+      {
+        "title": "Version history",
+        "description": "Save snapshots and restore important drafts.",
+        "icon": "History"
+      },
+      {
+        "title": "AI assist (demo)",
+        "description": "Prompted writing suggestions with room for real AI integrations.",
+        "icon": "WandSparkles"
+      },
+      {
+        "title": "Collaboration-ready",
+        "description": "Planned real-time collaboration and permissions workflows.",
+        "icon": "Users"
+      }
+    ]
+  },
+  "stats": {
+    "id": "stats",
+    "title": "Built for modern writing",
+    "description": "Local-first autosave, clear versions, and easy sharing.",
+    "items": [
+      {
+        "title": "Local-first",
+        "description": "Autosaves in your browser"
+      },
+      {
+        "title": "Versioned",
+        "description": "Restore with one click"
+      },
+      {
+        "title": "Shareable",
+        "description": "HTML / Markdown exports"
+      }
+    ]
+  },
+  "cta": {
+    "id": "cta",
+    "title": "Start your next document with Rich Editor",
+    "description": "Open the editor and begin writing instantly.",
+    "buttons": [
+      {
+        "title": "Start Editing",
+        "url": "/editor",
+        "target": "_self",
+        "icon": "PenLine"
+      },
+      {
+        "title": "Read Docs",
+        "url": "https://docs.shipany.com/editor",
+        "target": "_blank",
+        "variant": "outline",
+        "icon": "BookOpenText"
+      }
+    ]
+  },
+  "subscribe": {
+    "id": "subscribe",
+    "title": "Get Rich Editor updates",
+    "description": "Stay up to date with new releases and features.",
+    "submit": {
+      "input": {
+        "placeholder": "Enter your email"
+      },
+      "button": {
+        "title": "Subscribe"
+      },
+      "action": "/api/subscribe"
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Rich Editor",
+      "description": "Rich Editor is a modern rich text editor for creators and collaborative teams.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Rich Editor"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "Editor",
+              "url": "/editor",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Website",
+              "url": "https://shipany.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Docs",
+              "url": "https://docs.shipany.com/editor",
+              "target": "_blank"
+            },
+            {
+              "title": "GitHub",
+              "url": "https://github.com/shipany/rich-editor",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Website",
+          "icon": "Globe",
+          "url": "https://shipany.com",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "icon": "Github",
+          "url": "https://github.com/shipany/rich-editor",
+          "target": "_blank"
+        },
+        {
+          "title": "Docs",
+          "icon": "BookOpenText",
+          "url": "https://docs.shipany.com/editor",
+          "target": "_blank"
+        },
+        {
+          "title": "Support",
+          "icon": "Mail",
+          "url": "mailto:support@shipany.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  },
+  "converter": {
+    "title": "Purchasing Power Parity Calculator",
+    "description": "Discover the real purchasing power of your dollars in different countries",
+    "footer_tip": "Data provided by AI analysis, for reference only",
+    "amount_label": "USD Amount",
+    "amount_placeholder": "100",
+    "country_label": "Target Country",
+    "country_placeholder": "Select a country",
+    "button_convert": "Convert (10 credits per conversion)",
+    "button_loading": "Calculating...",
+    "loading_text": "AI is analyzing purchasing power...",
+    "empty_text": "Enter an amount and select a country to start",
+    "result_title": "Conversion Result",
+    "result_prefix": "Purchasing power in {country} equals",
+    "comparison_title": "Purchasing Power Comparison Examples",
+    "countries": {
+      "china": "China (CNY)",
+      "japan": "Japan (JPY)",
+      "uk": "United Kingdom (GBP)",
+      "australia": "Australia (AUD)",
+      "canada": "Canada (CAD)",
+      "singapore": "Singapore (SGD)",
+      "korea": "South Korea (KRW)",
+      "india": "India (INR)",
+      "thailand": "Thailand (THB)",
+      "vietnam": "Vietnam (VND)"
+    },
+    "country_names": {
+      "china": "China",
+      "japan": "Japan",
+      "uk": "United Kingdom",
+      "australia": "Australia",
+      "canada": "Canada",
+      "singapore": "Singapore",
+      "korea": "South Korea",
+      "india": "India",
+      "thailand": "Thailand",
+      "vietnam": "Vietnam"
+    },
+    "prompt": "As a Purchasing Power Parity (PPP) expert, please convert {amount} USD to the local currency of {country}.\n\nImportant: This is a PPP conversion, NOT an exchange rate conversion. Please calculate equivalent purchasing power based on real price levels and cost of living.\n\nFor example: The purchasing power of $100 in the US might be equivalent to 300 CNY in China (not the exchange rate of 720 CNY).\n\nPlease provide:\n1. The equivalent amount based on purchasing power parity (not exchange rate)\n2. Currency code (e.g., CNY, JPY, etc.)\n3. 5 specific purchasing power comparison examples showing actual price differences for the same products in both countries\n\nPlease return in JSON format:\n{\n  \"amount\": \"converted amount (number only)\",\n  \"currency\": \"currency code\",\n  \"comparisons\": [\"example1\", \"example2\", \"example3\", \"example4\", \"example5\"]\n}\n\nNote: Return only the JSON, no other text"
+  },
+  "testimonials": {
+    "id": "testimonials",
+    "title": "Team feedback (coming soon)",
+    "description": "Real customer stories will appear here as the product matures.",
+    "items": []
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Frequently asked questions",
+    "description": "Quick answers about the Rich Editor workflow.",
+    "items": [
+      {
+        "question": "Does Rich Editor support Markdown?",
+        "answer": "You can export Markdown or HTML today. A dual-pane Markdown editor is on the roadmap."
+      },
+      {
+        "question": "Is real-time collaboration available?",
+        "answer": "Not yet. The current release focuses on single-author workflows and versioning."
+      },
+      {
+        "question": "How does the AI assistant work?",
+        "answer": "The editor ships with demo prompts now, and can be connected to real AI services later."
+      },
+      {
+        "question": "Where is my data stored?",
+        "answer": "Drafts are saved locally in your browser for now. Cloud sync is planned for later releases."
+      }
+    ],
+    "tip": "Need more help? Reach out at <a href=\"mailto:support@shipany.com\">support@shipany.com</a>"
+  }
+}

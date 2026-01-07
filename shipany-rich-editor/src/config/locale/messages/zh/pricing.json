@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "价格",
+    "description": "选择方案，立即开始"
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "PPP Calculator 价格表",
+    "title": "价格",
+    "description": "获取 PPP Calculator 的全部功能。",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "按次付费"
+      }
+    ],
+    "items": [
+      {
+        "title": "标准版",
+        "description": "快速开始查询购买力平价。",
+        "label": "热门",
+        "features_title": "包含入门版功能，此外",
+        "features": [
+          "200 积分，有效期 3 个月"
+        ],
+        "interval": "one-time",
+        "amount": 500,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "$8",
+        "currencies": [
+          {
+            "currency": "CNY",
+            "amount": 3500,
+            "price": "¥35",
+            "original_price": "¥56",
+            "payment_providers": [
+              "creem"
+            ]
+          }
+        ],
+        "unit": "",
+        "is_featured": true,
+        "tip": "一次付费，畅享查询！",
+        "button": {
+          "title": "获取 PPP Calculator",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "prod_54SMjNjUwM3zmES1Ev4WHk",
+        "payment_product_id": "prod_54SMjNjUwM3zmES1Ev4WHk",
+        "product_name": "DigitalGift",
+        "credits": 200,
+        "valid_days": 90,
+        "group": "one-time"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "当前方案",
+    "processing": "处理中"
+  }
+}

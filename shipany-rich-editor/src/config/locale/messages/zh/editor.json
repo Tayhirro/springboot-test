@@ -1,0 +1,70 @@
+{
+  "title": "Rich Editor",
+  "subtitle": "专注写作、版本管理与内容分享。",
+  "doc_list": {
+    "title": "文档",
+    "search": "搜索文档",
+    "empty": "未找到文档"
+  },
+  "actions": {
+    "new": "新建文档",
+    "save": "保存版本",
+    "export": "导出",
+    "delete": "删除",
+    "cancel": "取消"
+  },
+  "editor": {
+    "title_placeholder": "文档标题",
+    "placeholder": "从这里开始写作..."
+  },
+  "panels": {
+    "templates": "模板",
+    "versions": "版本",
+    "assistant": "AI 助手（演示）"
+  },
+  "versions": {
+    "empty": "暂无版本记录",
+    "restore": "恢复"
+  },
+  "templates": {
+    "apply": "应用",
+    "empty": "暂无模板"
+  },
+  "assistant": {
+    "title": "快速提示",
+    "hint": "当前为演示建议",
+    "insert": "插入"
+  },
+  "dialogs": {
+    "delete_title": "删除这篇文档？",
+    "delete_description": "此操作无法撤销。",
+    "link_hint": "粘贴完整链接，将其变成可点击的超链接。",
+    "image_hint": "粘贴图片链接，将图片插入编辑器。"
+  },
+  "status": {
+    "autosave": "自动保存：本地",
+    "updated": "更新于 {time}",
+    "active": "当前"
+  },
+  "export": {
+    "html": "复制 HTML",
+    "markdown": "复制 Markdown",
+    "clipboard_unavailable": "无法访问剪贴板"
+  },
+  "toolbar": {
+    "bold": "加粗",
+    "italic": "斜体",
+    "underline": "下划线",
+    "strike": "删除线",
+    "heading": "标题",
+    "bullet": "无序列表",
+    "ordered": "有序列表",
+    "quote": "引用",
+    "code": "代码块",
+    "link": "插入链接",
+    "image": "插入图片",
+    "table": "插入表格",
+    "undo": "撤销",
+    "redo": "重做"
+  }
+}
