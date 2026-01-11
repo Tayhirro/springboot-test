@@ -61,6 +61,9 @@
 ### 7.2 非对比（no-negatives）的自监督（相关但不同路子）
 - BYOL / SimSiam 等方法不显式用负样本，通常用 stop-grad、predictor、动量分支等机制避免塌缩（representation collapse）。
 
+### 7.3 原型学习（Prototypical Networks，few-shot）
+- 用 support 样本计算每类原型（类中心），query 按距离原型最近来分类；属于度量/表示学习的近亲（见 `modules/PrototypicalLearning.md`）。
+
 ## 8. 常见坑 & Debug 清单（对比学习专用）
 - 表征未做 L2 normalize（或训练/推理不一致）
 - 温度/`logit_scale` 数值异常（过大导致过尖、过小导致区分不够）
