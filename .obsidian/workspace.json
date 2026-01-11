@@ -194,8 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e7c9b2ce1d1513d",
+  "active": "c0dd6c6168e19e8f",
   "lastOpenFiles": [
+    "轨迹预测/论文/2103.14023v3.pdf",
+    "轨迹预测/论文/machines-13-00818-v2.pdf",
+    "轨迹预测/总结/machines-13-00818-v2.pdf",
+    "轨迹预测/总结",
+    "轨迹预测/论文",
+    "轨迹预测",
     "神经网络/索引.md",
     "神经网络/概念图.md",
     "神经网络/modules/PrototypicalLearning.md",
@@ -210,12 +216,7 @@
     "META-INF/spring.factories",
     "META-INF",
     "HMDP-Redis/docs/spring-factories-mechanism.md",
-    "HMDP-Redis/docs",
     "神经网络/examples/VAE_TensorLevelExample.md",
-    "mini-spring/version2/target/classes/META-INF/spring.handlers",
-    "mini-spring/version2/target/classes/META-INF",
-    "mini-spring/version1/target/classes/logback.xml",
-    "HMDP-Redis/hm-dianping/target/classes/unlock.lua",
     "神经网络/implementations/README.md",
     "神经网络/README.md",
     "神经网络/modules/ContrastiveLearning.md",
@@ -231,7 +232,6 @@
     "神经网络/implementations/_TEMPLATE.md",
     "神经网络/papers/_TEMPLATE.md",
     "神经网络/papers/README.md",
-    "神经网络/models/CLIP.md",
-    "神经网络/models/Diffusion.md"
+    "神经网络/models/CLIP.md"
   ]
 }
