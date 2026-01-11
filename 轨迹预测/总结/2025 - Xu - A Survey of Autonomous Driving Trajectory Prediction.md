@@ -1,0 +1,132 @@
+---
+type: paper-summary
+tags:
+  - trajectory-prediction
+  - autonomous-driving
+  - survey
+year: 2025
+venue: Machines
+doi: 10.3390/machines13090818
+source_pdf: 轨迹预测/论文/machines-13-00818-v2.pdf
+---
+
+# 2025 - Xu - A Survey of Autonomous Driving Trajectory Prediction
+
+> PDF：[[轨迹预测/论文/machines-13-00818-v2.pdf]]
+
+## 0. Citation
+- Title: A Survey of Autonomous Driving Trajectory Prediction: Methodologies, Challenges, and Future Prospects
+- Authors: Miao Xu, Zhi Liu, Bingyi Wang, Shengyan Li
+- Journal: Machines 2025, 13, 818
+- DOI: 10.3390/machines13090818
+
+## 1. 一句话
+- 这是一篇面向**自动驾驶多智能体轨迹预测**的综述：给定历史轨迹 + HD Map + 场景上下文，系统梳理传统方法与深度学习方法（含 Transformer / 生成式 / Diffusion / LLM 相关进展），并总结 5 个核心挑战与未来方向。
+
+## 2. 这篇综述的“分类框架”（我觉得最可复用的部分）
+作者提出的多维分类框架核心是 4 个维度：
+
+### 2.1 输入表示（Core Input Element）
+- Dynamic information：目标车及周围交通体的历史轨迹/状态（位置、速度、加速度、航向等），偏短期预测关键；来源：车载传感器、V2X 等。
+- Static information：车道线、路缘、信号灯、可行驶区域、交叉口结构等（多来自 HD Map + 传感器），对长时预测/路径约束重要。
+- Scenario context：交通规则、光照/天气、场景类型等，用于策略自适应与鲁棒性提升。
+
+### 2.2 输出表示（Output Representation）
+- 轨迹表示方式：
+  - 离散点序列（最常见）
+  - 参数曲线（例如 B-spline 等；用控制点/曲线参数表示）
+  - 栅格占用（grid occupancy：预测未来占用概率图）
+- 单模态 vs 多模态：
+  - 单模态：输出“最可能的一条”轨迹
+  - 多模态：输出多条候选轨迹及其概率（更贴近真实的意图多样性）
+- 不确定性量化（Uncertainty Quantification）：用概率分布/置信区间/生成式采样等，把“噪声 + 行为随机性”显式交给下游规划与风险评估。
+
+### 2.3 方法范式（Method Paradigm）
+- 传统方法：物理/运动学/规则/概率推断为主，可解释、高效，但在复杂交互与强非线性场景易失效。
+- 深度学习：从数据中学习时空依赖与交互模式，精度更强，但对数据规模/算力依赖大。
+
+### 2.4 交互建模（Interaction Modeling）
+作者按“是否显式表示与处理交互”把方法分 3 类：
+- 不考虑交互：各交通体独立预测，适合低密度场景；高密度会明显掉点。
+- 隐式交互：通过共享特征/联合训练等方式“学到交互”，算力更友好，但复杂场景交互表达可能不足。
+- 显式交互：显式建模车-车/车-人关系（例如图结构/GNN 等），精度更高但算力代价也更大。
+
+## 3. 方法综述（按本文目录）
+
+### 3.1 传统方法（Conventional Methods）
+- Physics model-driven：CV/CA + Kalman Filter、Bicycle model 等
+  - 优点：简单高效、可解释、短时预测更稳
+  - 局限：难处理意图突变/交互；长时误差大
+- Maneuver-based：先识别/分类机动（变道/跟车/超车等）→ 再按机动库生成轨迹
+  - 优点：意图显式、利于决策规划
+  - 局限：机动库覆盖有限、交互弱、机动边界模糊
+- PGM：HMM / DBN 等
+  - 优点：天然表达不确定性、可融合多源信息
+  - 局限：结构与依赖关系需人工设计；推断/可扩展性受限
+- Gaussian Process Regression（GPR）
+  - 优点：贝叶斯/非参数、输出分布
+  - 局限：复杂度高、规模化困难
+
+### 3.2 深度学习（Deep Learning Methods）
+作者按“特征编码 → 架构演进 → 生成式不确定性建模”的脉络组织：
+
+- Feature encoding（基础底座）：把历史轨迹、HD Map、其他交通体动态等异构输入编码成可学习特征，并做融合。
+
+- RNN（Seq2Seq / Social Pooling 等）
+  - 优点：强时间建模；encoder-decoder 便于外挂多模态/社交交互模块
+  - 局限：长历史会出现信息瓶颈；空间关系建模能力不足
+- CNN（BEV rasterized scene）
+  - 优点：高度并行、推理更快（利于实时）
+  - 局限：栅格化带来几何信息损失（vector → grid）
+- GNN（显式关系图 + 向量化地图/拓扑）
+  - 优点：显式关系建模；适配非欧结构；易把路网拓扑纳入预测
+  - 局限：密集场景图大 → message passing 开销大；时间建模常需外接 RNN/Transformer
+- Transformer
+  - 优点：自注意力擅长全局依赖建模（长程时空依赖/意图）
+  - 局限：归纳偏置弱、需要更大更杂的数据；OOD/长尾泛化仍是问题
+
+### 3.3 生成式轨迹预测（GAN / CVAE / Diffusion）
+目标：学习未来轨迹的**概率分布**而不是单一路径，从而支持多模态预测。
+
+- GAN：轨迹更“尖锐/真实”，但对抗训练不稳定、易 mode collapse，需精细调参。
+- CVAE：训练更稳定、概率框架清晰，但输出可能偏“平滑”。
+- Diffusion：样本质量与多样性通常更强，但迭代去噪导致推理慢；此外“如何客观评估分布质量”仍是开放问题。
+
+## 4. 数据集 & 指标（Evaluation）
+
+### 4.1 数据集（Table 7）
+- 早期：NGSIM-180、highD（高速/单一主体类型等限制明显）
+- 现代数据集：包含多传感器 + HD Map，覆盖多城市、雨夜等条件，标注更多元素（信号灯/规则等）
+- 文中列举的常用数据集：
+  - nuScenes
+  - Argoverse (1 & 2)
+  - Waymo Open Dataset
+  - Lyft Level 5
+  - Apolloscape
+  - ETH/UCY、Stanford Drone Dataset、TrajNet++
+  - INTERACTION Dataset
+
+### 4.2 指标（Section 5.2）
+- 单模态：ADE、FDE
+- 多模态：minADE@k、minFDE@k、Miss Rate、Overlap Rate（基于 IoU 的多样性度量）
+- 概率/不确定性：NLL、Brier Score、ECE、AURC
+
+## 5. 五大挑战（Section 6.1）
+1) **复杂交互**：车-车/车-人交互频繁且不确定（并线、急刹、无信号横穿等）。
+2) **强规则与 HD Map 依赖**：规则跨地区/场景差异大；HD Map 需实时更新并与感知融合。
+3) **长时预测误差累积 + 行为不确定性放大**：长时段偏差与多模态意图更难覆盖。
+4) **极端/长尾场景泛化**：稀有场景难覆盖；合成数据（如 GAN/生成式）有帮助但真实性仍是问题。
+5) **实时与算力约束**：模型复杂度与车载硬件的实时性需求冲突。
+
+## 6. 未来方向（Section 6.2）
+1) **交互博弈 + 具身智能**：用 IRL/贝叶斯做意图与奖励推断，上层推理 + 下层 MARL/MPC 优化，形成“感知-意图-决策-预测”闭环；引入具身仿真把物理约束/因果性带进预测。
+2) **减弱 HD Map 依赖 / 动态融合**：发展实时建图与 V2X 融合，降低对静态高精图的强依赖。
+3) **长时闭环纠错**：把预测结果回馈规划模块，通过在线重规划/世界模型等做偏差校正。
+4) **因果推理 + 仿真迁移**：用因果干预/反事实增强长尾泛化；用 Diffusion 等生成式模型合成长尾数据，并做 sim-to-real/域自适应。
+5) **轻量化 + 硬件协同设计**：蒸馏/量化/动态推理等；把注意力并行性与 FPGA/车规硬件编译优化结合以降时延和功耗。
+
+## 7. 我自己的 takeaways（落地视角）
+- 先把任务“写清楚”：输入（历史轨迹/地图/上下文）+ 输出（单/多模态、是否要概率）+ 交互（无/隐式/显式）+ 时域（短/长）→ 再选模型族。
+- 评估别只看 ADE/FDE：多模态要看 minADE/minFDE/MR/多样性；如果要交给规划，就必须补不确定性指标（NLL/ECE/AURC 等）。
+- 生成式模型很关键但别忽视部署：Diffusion 质量高但推理慢，实际需要采样加速/蒸馏/少步数等工程化方案。
+
