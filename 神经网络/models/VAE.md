@@ -6,7 +6,7 @@
 ## 2. 本质（概率化降维 + 生成建模）
 - 把高维数据 `x` 看成由低维潜变量 `z` 生成：`p(x)=∫ p(z)p(x|z)dz`（潜变量模型的“降维”视角）。
 - VAE 的核心是同时学两条路：  
-  1) 生成路（decoder）：`p_θ(x|z)` 让你能从 `z` 采样生成 `x`  
+  1) 生成路（decoder）：`p_θ(x|z)` 能从 `z` 采样生成 `x`  
   2) 推断路（encoder）：`q_φ(z|x)` 近似难算的真实后验 `p(z|x)`（用 ELBO 把它们绑在一起训练）
 - 对照：GMM（隐类别）、HMM（隐状态）、因子分析（少数因子）也都是“隐变量解释观测”；VAE 只是把生成/推断用神经网络参数化了。入口：[modules/DimensionalityReduction.md](../modules/DimensionalityReduction.md)
 
