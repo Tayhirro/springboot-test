@@ -1,32 +1,34 @@
 # 泛函（Functional Analysis）笔记组织说明（可扩展 & 速查）
 
+导航：[math/README.md](../README.md) ｜[math/索引.md](../索引.md) ｜本分支：[math/泛函/索引.md](索引.md) ｜[math/泛函/概念图.md](概念图.md)
+
 这部分按“结构（空间）+ 态射（算子/泛函）+ 收敛（范畴/拓扑）+ 工具定理”的方式组织：  
 你查概念时先定位它属于哪类“空间”，再看它允许什么“算子/泛函”，最后看要用哪种“收敛/拓扑”与对应定理。
 
 ---
 
 ## 1. 目录结构（入口 → 概念页 → 模块复用）
-- `math/泛函/README.md`：入口与组织方式（本页）
-- `math/泛函/索引.md`：术语索引（中文｜英文｜一句话｜链接）
-- `math/泛函/概念图.md`：概念关系图（继承/依赖/常用路线）
+- [math/泛函/README.md](README.md)：入口与组织方式（本页）
+- [math/泛函/索引.md](索引.md)：术语索引（中文｜英文｜一句话｜链接）
+- [math/泛函/概念图.md](概念图.md)：概念关系图（继承/依赖/常用路线）
 
 概念页（“空间类”与“典型函数空间”）：
-- `math/泛函/structures/spaces/NormedSpace.md`
-- `math/泛函/structures/spaces/BanachSpace.md`
-- `math/泛函/structures/spaces/InnerProductSpace.md`
-- `math/泛函/structures/spaces/HilbertSpace.md`
-- `math/泛函/structures/function-spaces/Lp.md`
-- `math/泛函/structures/function-spaces/Sobolev.md`
+- [math/泛函/structures/spaces/NormedSpace.md](structures/spaces/NormedSpace.md)
+- [math/泛函/structures/spaces/BanachSpace.md](structures/spaces/BanachSpace.md)
+- [math/泛函/structures/spaces/InnerProductSpace.md](structures/spaces/InnerProductSpace.md)
+- [math/泛函/structures/spaces/HilbertSpace.md](structures/spaces/HilbertSpace.md)
+- [math/泛函/structures/function-spaces/Lp.md](structures/function-spaces/Lp.md)
+- [math/泛函/structures/function-spaces/Sobolev.md](structures/function-spaces/Sobolev.md)
 
 横切模块（跨多个空间复用）：
-- `math/泛函/modules/Operators.md`：线性算子、有界性、伴随、谱（后续扩展）
-- `math/泛函/modules/Duality.md`：对偶空间、算子范数、Riesz 表示（Hilbert）
-- `math/泛函/modules/Convergence.md`：范数/弱/弱* 收敛与紧性套路
-- `math/泛函/modules/Theorems.md`：Hahn–Banach、开映射、闭图像、Banach–Steinhaus 等
+- [math/泛函/modules/Operators.md](modules/Operators.md)：线性算子、有界性、伴随、谱（后续扩展）
+- [math/泛函/modules/Duality.md](modules/Duality.md)：对偶空间、算子范数、Riesz 表示（Hilbert）
+- [math/泛函/modules/Convergence.md](modules/Convergence.md)：范数/弱/弱* 收敛与紧性套路
+- [math/泛函/modules/Theorems.md](modules/Theorems.md)：Hahn–Banach、开映射、闭图像、Banach–Steinhaus 等
 
 例子与练习（最小工作例子/自测）：
-- `math/泛函/examples/Examples.md`
-- `math/泛函/exercises/Exercises.md`
+- [math/泛函/examples/Examples.md](examples/Examples.md)
+- [math/泛函/exercises/Exercises.md](exercises/Exercises.md)
 
 ---
 

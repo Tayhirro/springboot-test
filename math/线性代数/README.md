@@ -1,5 +1,7 @@
 # 线性代数（Linear Algebra）笔记组织说明（可扩展 & 速查）
 
+导航：[math/README.md](../README.md) ｜[math/索引.md](../索引.md) ｜本分支：[math/线性代数/索引.md](索引.md) ｜[math/线性代数/概念图.md](概念图.md)
+
 这部分建议按三条主线组织：  
 1) **对象**：向量空间、线性映射、矩阵  
 2) **结构**：内积/正交、二次型/半正定（PSD）  
@@ -19,18 +21,18 @@
 ---
 
 ## 2. 目录结构（入口 → 索引 → 概念图 → 模块）
-- `math/线性代数/README.md`：入口与组织方式（本页）
-- `math/线性代数/索引.md`：术语索引（中文｜英文｜一句话｜链接）
-- `math/线性代数/概念图.md`：概念关系图（依赖链/常用路线）
+- [math/线性代数/README.md](README.md)：入口与组织方式（本页）
+- [math/线性代数/索引.md](索引.md)：术语索引（中文｜英文｜一句话｜链接）
+- [math/线性代数/概念图.md](概念图.md)：概念关系图（依赖链/常用路线）
 
 横切模块（解题与应用工具箱）：
-- `math/线性代数/modules/Linearity.md`
-- `math/线性代数/modules/PSD.md`
-- `math/线性代数/modules/KernelMethods.md`
+- [math/线性代数/modules/Linearity.md](modules/Linearity.md)
+- [math/线性代数/modules/PSD.md](modules/PSD.md)
+- [math/线性代数/modules/KernelMethods.md](modules/KernelMethods.md)
 
 例子与练习（最小工作例子/自测）：
-- `math/线性代数/examples/Examples.md`
-- `math/线性代数/exercises/Exercises.md`
+- [math/线性代数/examples/Examples.md](examples/Examples.md)
+- [math/线性代数/exercises/Exercises.md](exercises/Exercises.md)
 
 ---
 

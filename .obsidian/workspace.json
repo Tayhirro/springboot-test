@@ -196,6 +196,9 @@
   },
   "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
+    "math/概念图.md",
+    "math/索引.md",
+    "math/README.md",
     "神经网络/models/VAE.md",
     "神经网络/modules/DimensionalityReduction.md",
     "神经网络/索引.md",
@@ -230,9 +233,6 @@
     "神经网络/models/CVAE.md",
     "神经网络/models/AE.md",
     "神经网络/models/BERT.md",
-    "神经网络/models/_TEMPLATE.md",
-    "神经网络/exercises/Exercises.md",
-    "神经网络/examples/Examples.md",
-    "神经网络/experiments/_TEMPLATE.md"
+    "神经网络/models/_TEMPLATE.md"
   ]
 }
