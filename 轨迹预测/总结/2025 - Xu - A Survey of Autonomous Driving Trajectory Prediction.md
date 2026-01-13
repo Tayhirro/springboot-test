@@ -122,3 +122,4 @@ source_pdf: 轨迹预测/论文/machines-13-00818-v2.pdf
 - 评估别只看 ADE/FDE：多模态要看 minADE/minFDE/MR/多样性；如果要交给规划，就必须补不确定性指标（NLL/ECE/AURC 等）。
 - 生成式模型很关键但别忽视部署：Diffusion 质量高但推理慢，实际需要采样加速/蒸馏/少步数等工程化方案。
 
+9
