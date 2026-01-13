@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "神经网络/modules/DimensionalityReduction.md",
+                "file": "math/概念图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DimensionalityReduction"
+              "title": "概念图"
             }
           }
         ]
@@ -196,11 +196,12 @@
   },
   "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
-    "math/概念图.md",
+    "math/线性代数/README.md",
     "math/索引.md",
+    "神经网络/modules/DimensionalityReduction.md",
+    "math/概念图.md",
     "math/README.md",
     "神经网络/models/VAE.md",
-    "神经网络/modules/DimensionalityReduction.md",
     "神经网络/索引.md",
     "神经网络/modules/FactorAnalysis.md",
     "神经网络/modules/HiddenMarkovModel.md",
@@ -232,7 +233,6 @@
     "神经网络/modules/Attention.md",
     "神经网络/models/CVAE.md",
     "神经网络/models/AE.md",
-    "神经网络/models/BERT.md",
-    "神经网络/models/_TEMPLATE.md"
+    "神经网络/models/BERT.md"
   ]
 }
