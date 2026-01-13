@@ -196,6 +196,7 @@
   },
   "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
+    "轨迹预测/论文/LAformer.pdf",
     "math/README.md",
     "math/离散/examples/Examples.md",
     "math/泛函/概念图.md",
@@ -233,7 +234,6 @@
     "2026-01-12.md",
     "shipany-rich-editor/docs/MIGRATION_SUMMARY.md",
     "HMDP-Redis/docs/spring-factories-mechanism.md",
-    "神经网络/implementations/README.md",
-    "神经网络/README.md"
+    "神经网络/implementations/README.md"
   ]
 }
