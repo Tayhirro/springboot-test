@@ -37,6 +37,7 @@
 - 困难点：后验 `p(z|x)` 通常算不出来，于是用 `q_φ(z|x)` 近似，并用 `ELBO` 训练：
   - `log p(x) >= ELBO(x) = E_q[log p_θ(x|z)] - KL(q_φ(z|x)||p(z))`
 - 可以把它看成“非线性/神经网络版的因子分析（更一般的概率化降维）”。
+- 从“几何/分布”角度：`z -> x` 是一个潜变量到数据空间的映射（可视作参数化/推前分布）。见 [modules/LatentToDataMapping.md](LatentToDataMapping.md)
 
 相关页：
 - ELBO：[modules/ELBO.md](ELBO.md)
