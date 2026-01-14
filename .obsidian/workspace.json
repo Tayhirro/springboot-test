@@ -196,6 +196,18 @@
   },
   "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
+    "math/概率论/modules/README.md",
+    "math/概率论/structures/_TEMPLATE.md",
+    "math/概率论/exercises/Exercises.md",
+    "math/概率论/examples/Examples.md",
+    "math/概率论/概念图.md",
+    "math/概率论/索引.md",
+    "math/概率论/README.md",
+    "math/概率论/modules",
+    "math/概率论/structures",
+    "math/概率论/exercises",
+    "math/概率论/examples",
+    "math/概率论",
     "轨迹预测/img/image2.png",
     "轨迹预测/img/image copy.png",
     "轨迹预测/论文/MTR.pdf",
@@ -223,18 +235,7 @@
     "轨迹预测/img",
     "轨迹预测/论文/agentawaretransformer.pdf",
     "轨迹预测/论文/Scenetransformer.pdf",
-    "轨迹预测/论文/2106.08417v3.pdf",
-    "轨迹预测/论文/2103.14023v3.pdf",
-    "轨迹预测/论文/machines-13-00818-v2.pdf",
-    "轨迹预测/总结/machines-13-00818-v2.pdf",
-    "轨迹预测/总结",
     "神经网络/概念图.md",
-    "神经网络/modules/PrototypicalLearning.md",
-    "math/拓扑.md",
-    "未命名.canvas",
-    "2026-01-12.md",
-    "shipany-rich-editor/docs/MIGRATION_SUMMARY.md",
-    "HMDP-Redis/docs/spring-factories-mechanism.md",
-    "神经网络/implementations/README.md"
+    "未命名.canvas"
   ]
 }
