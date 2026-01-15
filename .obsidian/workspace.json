@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文学/structures/genres/Poetry.md",
+                "file": "文学/诗歌收藏/索引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Poetry"
+              "title": "索引"
             }
           }
         ]
@@ -196,9 +196,19 @@
   },
   "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
-    "文学/诗歌收藏/索引.md",
-    "文学/诗歌收藏/_TEMPLATE.md",
     "文学/诗歌收藏/README.md",
+    "文学/诗歌收藏/_TEMPLATE.md",
+    "文学/诗歌收藏/索引.md",
+    "文学/README.md",
+    "文学/文学索引.md",
+    "math/数学索引.md",
+    "math/拓扑.md",
+    "math/泛函/索引.md",
+    "神经网络/神经网络索引.md",
+    "神经网络/索引.md",
+    "math/索引.md",
+    "文学/索引.md",
+    "文学/structures/genres/Poetry.md",
     "文学/诗歌收藏",
     "文学/works/_TEMPLATE.md",
     "文学/modules/Irony.md",
@@ -206,11 +216,9 @@
     "文学/structures/_TEMPLATE.md",
     "文学/structures/periods/Modernism.md",
     "文学/structures/periods/Romanticism.md",
-    "文学/structures/genres/Poetry.md",
     "文学/structures/genres/Fiction.md",
     "文学/structures/forms/StreamOfConsciousness.md",
     "文学/structures/forms/Sonnet.md",
-    "文学/索引.md",
     "math/泛函/examples/Examples.md",
     "文学/examples/Examples.md",
     "文学/examples",
@@ -218,14 +226,6 @@
     "文学/authors",
     "文学/works",
     "math/泛函/exercises/Exercises.md",
-    "math/泛函/概念图.md",
-    "math/泛函/索引.md",
-    "math/概念图.md",
-    "math/索引.md",
-    "math/拓扑.md",
-    "文学/modules/_TEMPLATE.md",
-    "文学/modules/UnreliableNarrator.md",
-    "文学/modules/NarrativePOV.md",
     "文学/modules",
     "文学/structures/periods",
     "文学/structures/genres",
