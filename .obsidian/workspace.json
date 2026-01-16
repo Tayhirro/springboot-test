@@ -11,12 +11,14 @@
             "id": "1e7c9b2ce1d1513d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "轨迹预测/论文/AutoBot.pdf"
+                "file": "轨迹预测/总结/总结.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "AutoBot"
+              "icon": "lucide-file",
+              "title": "总结"
             }
           }
         ]
@@ -192,10 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0dd6c6168e19e8f",
+  "active": "1e7c9b2ce1d1513d",
   "lastOpenFiles": [
-    "math/概率论/distributions/LaplaceDistribution.md",
+    "轨迹预测/总结/2025 - Xu - A Survey of Autonomous Driving Trajectory Prediction.md",
+    "轨迹预测/总结/总结.md",
     "轨迹预测/论文/AutoBot.pdf",
+    "math/概率论/distributions/LaplaceDistribution.md",
     "轨迹预测/论文/STAR.pdf",
     "math/概率论/distributions/README.md",
     "math/概率论/索引.md",
@@ -224,7 +228,6 @@
     "文学/索引.md",
     "文学/structures/genres/Poetry.md",
     "文学/诗歌收藏",
-    "文学/works/_TEMPLATE.md",
     "文学/examples",
     "文学/authors",
     "文学/works",
