@@ -25,13 +25,12 @@
 
 ---
 
-## 2. 你提到的主题放哪里
 - AE / VAE / CVAE：`models/AE.md`、`models/VAE.md`、`models/CVAE.md`
 - Diffusion：`models/Diffusion.md`
 - BERT：`models/BERT.md`
 - CLIP：`models/CLIP.md`
 
-它们常用的底座模块：
+常用的底座模块：
 - VAE 系：`modules/ELBO.md`、`modules/KLDivergence.md`、`modules/ReparameterizationTrick.md`
 - Transformer/BERT：`modules/Attention.md`、`modules/Tokenization.md`
 - CLIP：`modules/ContrastiveLearning.md`
