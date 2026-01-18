@@ -11,14 +11,12 @@
             "id": "a00efa8c24b1f0b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "文学/诗歌收藏/宋/卢祖皋/贺新郎·挽住风前柳.md",
-                "mode": "source",
-                "source": false
+                "file": "轨迹预测/论文/AutoBot.pdf"
               },
-              "icon": "lucide-file",
-              "title": "贺新郎·挽住风前柳"
+              "icon": "lucide-file-text",
+              "title": "AutoBot"
             }
           },
           {
@@ -207,9 +205,11 @@
   },
   "active": "a00efa8c24b1f0b0",
   "lastOpenFiles": [
-    "未命名 4.base",
-    "文学/诗歌收藏/宋/卢祖皋/贺新郎·挽住风前柳.md",
     "轨迹预测/论文/agentawaretransformer.pdf",
+    "轨迹预测/论文/STAR.pdf",
+    "未命名 5.base",
+    "文学/诗歌收藏/宋/卢祖皋/贺新郎·挽住风前柳.md",
+    "未命名 4.base",
     "神经网络/神经网络索引.md",
     "神经网络/概念图.md",
     "math/概率论/README.md",
@@ -223,7 +223,6 @@
     "轨迹预测/论文/道路信息参与建模",
     "轨迹预测/论文/显式编码道路信息/Scenetransformer.pdf",
     "轨迹预测/论文/显式编码道路信息/VectorNet.pdf",
-    "轨迹预测/论文/显式编码道路信息/Multimodal_Trajectory_Prediction_Conditioned_on_La.pdf",
     "音乐/structures/genres/音乐-体裁-爵士.md",
     "音乐/structures/instruments/音乐-乐器-钢琴.md",
     "音乐/structures/instruments/索引.md",
@@ -239,7 +238,6 @@
     "音乐/works/_TEMPLATE.md",
     "音乐/structures/索引.md",
     "音乐/structures/README.md",
-    "音乐/structures/instruments",
     "音乐/modules/音乐-模块-混音.md",
     "音乐/modules/音乐-模块-音色.md",
     "音乐/listening/索引.md",
